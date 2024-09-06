@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Violet';
+    src: url('Violet Dreams DEMO.ttf');
+    font-style: normal;
+    font-weight:400;
+}
+
+@layer base {
+
+    *{
+        @apply font-['Violet'];
+    }
+}
